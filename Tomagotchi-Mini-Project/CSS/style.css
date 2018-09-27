@@ -1,0 +1,132 @@
+html{
+	display: flex;
+	flex-grow: 
+	align-content: center;
+	justify-content: center;
+	background: url(../Images/beach.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+body {
+	text-align: center;
+	height: 1500px;
+	width: 1000px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Cinzel', serif;
+}
+div{
+	display: block;
+	margin: 0;
+	padding: 0px 0;
+}
+#start button{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 25px;
+	border-style: outset;
+	background: linear-gradient(#FF0086, #000086);
+	margin: 20px 0;
+	border-width: 5px; 
+	border-color: magenta;
+	letter-spacing: .70em;
+	color: #FFD100; 
+}
+.mypet{
+	display: flex;
+	
+
+}
+h3{
+
+}
+#mytomagotchi{
+	display: flex;
+	margin: 30px;
+	justify-content:  center; 
+}
+#ball{
+	display: flex;
+	width: 125px;
+	height: 125px;
+	flex-shrink: 2
+}
+#zzz{
+	display: flex;
+	width: 125px;
+	height: 125px;
+	flex-shrink: 2
+}
+#meat{
+	display: flex;
+	width: 125px;
+	height: 125px;
+	flex-shrink: 2
+}
+
+#controls{
+	display: block;
+	float: left;
+	margin: auto;
+	padding: 50px;
+	/*margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 15px;*/
+
+
+}
+
+#status{
+	font-size: 25px;
+	display: block;
+	float: right;
+	margin: auto;
+	padding: 50px;
+	/*margin-left: 100px;*/
+	color: #2F0000;
+	/*margin-right: 20px;*/
+	text-shadow: #FFF54B 1px 0 10px
+
+
+}
+#board{
+	display: flex;
+	margin-top: 100px;
+	background: linear-gradient( #7D76FF, #FFA576);
+	border-style: groove;
+	border-radius: 12px;
+	text-decoration: #27DDFF wavy underline;
+	
+
+
+}
+#controls button{
+	padding: 20px;
+	border-radius: 20px;
+	border-style: outset;
+	background: linear-gradient( 90deg, #B25D51, #99C1FF);
+	margin: 20px 0;
+	font-size: 20px;
+	border-width: .5em;
+	color: #FFF700;
+	font-weight: bolder;
+	letter-spacing: .20em;
+}
+#name     p{
+	color: #FFD100; 
+}
+#hunger p{
+	color: #FFD100; 
+	margin: 0px;
+}
+#sleep p{
+	color: #FFD100; 
+}
+#bored p{
+	color: #FFD100; 
+}
+#age p{
+	color: #FFD100; 
+}
