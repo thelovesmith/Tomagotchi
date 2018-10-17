@@ -1,6 +1,6 @@
 html{
 	display: flex;
-	flex-grow: 
+	/* flex-grow:  <-- was a value supposed to be here?*/ 
 	align-content: center;
 	justify-content: center;
 	background: url(../Images/beach.jpg);
@@ -40,13 +40,30 @@ div{
 
 }
 h3{
-
+	/*
+		Did you mean to add css rules here?
+	*/
 }
 #mytomagotchi{
 	display: flex;
 	margin: 30px;
 	justify-content:  center; 
 }
+
+/*
+	Whenever applying the same rules to multiple id selectors, you can also
+	just create on rule/declaration block and seperate your id selectors
+	by commas
+	
+	here's an example:
+	#ball, #zzz, #meat {
+		display: flex;
+		width: 125px;
+		height: 125px;
+		flex-shrink: 2
+	}
+
+*/
 #ball{
 	display: flex;
 	width: 125px;
@@ -130,3 +147,9 @@ h3{
 #age p{
 	color: #FFD100; 
 }
+
+/*
+	You did amazing with your styling of this Tamagotchi project Avery
+	make sure you remove all of your commented out / non-functional code
+	from your files on you master branch =)
+*/

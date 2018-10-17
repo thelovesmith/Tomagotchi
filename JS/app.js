@@ -255,7 +255,11 @@ $startGame.on('click', startGame)
 
 // Create a game OBJECT that controls the methods in the game. It will give you more control over the gameplay. 
 
-
+/* You're code above follows very good indentation and naming practices
+ * Great work for week three Avery! The only thing I would recommend
+ * would be to make sure to remove any commented out / non-function code
+ * from your master branch.
+ */
 
 
 
